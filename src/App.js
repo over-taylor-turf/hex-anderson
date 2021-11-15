@@ -11,7 +11,7 @@ function App() {
   return (
     <div id='page-container'>
       <div id='content-container'>
-          <h1 id="title"><span id="hex-title">hex</span>anderson</h1>
+          {/* <h1 id="title"><span id="hex-title">hex</span>anderson</h1> */}
 
           <Switch>
 

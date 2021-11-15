@@ -70,7 +70,7 @@ align-items: center;
   grid-column: 2 / 3; 
 }
 
-#budapest-hexcodes {
+#budapest-hexcodes, #moonrise-hexcodes {
   margin-top: 2vh;
   margin-bottom: 2vh;
   margin-left: 10vw;
@@ -86,9 +86,6 @@ align-items: center;
   width: 12vw;
 }
 
-.hex1 {
-  background-color: #4B0100;
-}
 
 .hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
   background-color: black;
@@ -107,29 +104,67 @@ align-items: center;
   letter-spacing: 1.5px;
 }
 
-.hex2 {
+.buda-hex1 {
+  background-color: #4B0100;
+}
+
+.buda-hex2 {
   background-color: #900403;
 }
 
-
-.hex3 {
+.buda-hex3 {
   background-color: #4E1042;
 }
 
-.hex4 {
+.buda-hex4 {
   background-color: #806150;
 }
 
-.hex5 {
+.buda-hex5 {
   background-color: #C76B4F;
 }
 
-.hex6 {
+.buda-hex6 {
   background-color: #D8AA88;
+}
+
+.moon-hex1 {
+  background-color: #AA4808;
+}
+
+.moon-hex2 {
+  background-color: #F69B3F;
+}
+
+.moon-hex3 {
+  background-color: #F2E3A3;
+}
+
+.moon-hex4 {
+  background-color: #E6D494;
+}
+
+.moon-hex5 {
+  background-color: #AEBDAA;
+}
+
+.moon-hex6 {
+  background-color: #94AEA4;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 8vw;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-arrow-alt-circle-left:hover {
+  color: #94AEA4;
 }
 
 .citation {
   margin-left: 10vw;
+  margin-bottom: 3rem;
 }
 
 .citation h3 {

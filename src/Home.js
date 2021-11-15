@@ -5,6 +5,9 @@ function Home() {
 
     return (
       <>
+
+        <h1 id="title"><span id="hex-title">&nbsp;hex</span>anderson</h1>
+        
         <h3 className='homepage'>Pleasing hex code palettes inspired by Wes Anderson films.</h3>
         <br/>
 
