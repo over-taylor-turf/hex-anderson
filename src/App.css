@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#page-container {
+  position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#content-container {
+  padding-bottom: 2.5rem
+}
+
+#title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 10.5vw;
+  margin-top: 15px;
+  margin-left: 10vw;
+}
+
+#hex-title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+}
+
+.homepage {
+  font-size: 3.5vw;
+  margin-left: 10vw;
+}
+
+#budapest-main-image, #moonrise-main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+
+#photo-wrapper {
+display: grid; 
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+grid-gap: 10px;
+justify-items: center;
+align-items: center;
+}
+
+.budapest-small-image {
+  width: 40vw;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2; 
+}
+
+.budapest-small-image:hover, .moonrise-small-image:hover {
+  opacity: 0.6; 
+}
+
+.moonrise-small-image {
+  width: 40vw;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3; 
+}
+
+#budapest-hexcodes {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2px;
+}
+
+.hex1, .hex2, .hex3, .hex4, .hex5, .hex6 {
+  height: 18vw;
+  width: 12vw;
+}
+
+.hex1 {
+  background-color: #4B0100;
+}
+
+.hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hex1 p, .hex2 p, .hex3 p, .hex4 p, .hex5 p, .hex6 p {
+  color: white;
+  text-align: center;
+  font-size: 3.25vw;
+  padding-top: 10px;
+  padding-left: 2px;
+  font-weight: 400;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 1.5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hex2 {
+  background-color: #900403;
+}
+
+
+.hex3 {
+  background-color: #4E1042;
+}
+
+.hex4 {
+  background-color: #806150;
+}
+
+.hex5 {
+  background-color: #C76B4F;
+}
+
+.hex6 {
+  background-color: #D8AA88;
+}
+
+.citation {
+  margin-left: 10vw;
+}
+
+.citation h3 {
+font-weight: 700;
+font-size: 3.5vw;
+}
+
+.citation h4 {
+font-weight: 400;
+font-size: 3.33vw;
+}
+
+.citation h6 {
+  font-weight: 400;
+font-size: 2.5vw;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+}
+
+footer h5 {
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  letter-spacing: 1.15px;
+}
+
+footer h6 {
+  color: white;
+  background-color: black;
+  padding-bottom: 0.5rem;
+  letter-spacing: 1.25px;
 }

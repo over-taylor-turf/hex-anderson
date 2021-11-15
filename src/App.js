@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Redirect, Switch } from "react-router-dom";
 import './App.css';
+
+import Home from './Home';
+import Budapest from './Budapest';
+import Moonrise from './Moonrise';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='page-container'>
+      <div id='content-container'>
+          <h1 id="title"><span id="hex-title">hex</span>anderson</h1>
+
+          <Switch>
+
+          <Route path='/' exact component={Home}/>
+
+          <Route path='/budapest' exact component={Budapest} />
+
+          <Route path='/moonrise' exact component={Moonrise} />
+
+          <Redirect to='/' />
+          
+          </Switch>   
+
+      </div>
+
+      <footer id="footer">
+        <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
+        <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
+      </footer>
     </div>
   );
 }
