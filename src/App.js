@@ -5,6 +5,7 @@ import './App.css';
 import Home from './Home';
 import Budapest from './Budapest';
 import Moonrise from './Moonrise';
+import Chevalier from './Chevalier';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path='/budapest' exact component={Budapest} />
 
           <Route path='/moonrise' exact component={Moonrise} />
+
+          <Route path='/chevalier' exact component={Chevalier} />
 
           <Redirect to='/' />
           

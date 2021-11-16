@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 
-function Budapest() {
+function Moonrise() {
 
     return (
       <>
 
-        <h1 id="title"><Link to='/'><i class="fas fa-arrow-alt-circle-left"></i></Link><span id="hex-title">&nbsp;hex</span>anderson</h1>
+        <h1 id="title"><Link to='/'><i class="fas fa-arrow-alt-circle-left moonrise-arrow"></i></Link><span id="hex-title">&nbsp;hex</span>anderson</h1>
 
         <img id='moonrise-main-image' src='./images/MoonriseKingdom.jpeg' alt='Suzy from Moonrise Kingdom looks out with her binoculars from a lighthouse on a clear day'/>
 
@@ -33,4 +33,4 @@ function Budapest() {
     );
   }
   
-  export default Budapest;
+  export default Moonrise;

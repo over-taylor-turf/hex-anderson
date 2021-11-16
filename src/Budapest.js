@@ -6,7 +6,7 @@ function Budapest() {
     return (
       <>
 
-        <h1 id="title"><Link to='/'><i class="fas fa-arrow-alt-circle-left"></i></Link><span id="hex-title">&nbsp;hex</span>anderson</h1>
+        <h1 id="title"><Link to='/'><i class="fas fa-arrow-alt-circle-left budapest-arrow"></i></Link><span id="hex-title">&nbsp;hex</span>anderson</h1>
 
         <img id='budapest-main-image' src='./images/GrandBudapestHotel1.jpeg' alt='characters from Grand Budapest Hotel in lobby together'/>
 

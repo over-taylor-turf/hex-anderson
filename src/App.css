@@ -38,7 +38,7 @@
   margin-left: 10vw;
 }
 
-#budapest-main-image, #moonrise-main-image {
+#budapest-main-image, #moonrise-main-image, #chevalier-main-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +48,7 @@
 #photo-wrapper {
 display: grid; 
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr;
+grid-template-rows: 1fr 1fr;
 grid-gap: 10px;
 justify-items: center;
 align-items: center;
@@ -60,17 +60,24 @@ align-items: center;
   grid-column: 1 / 2; 
 }
 
-.budapest-small-image:hover, .moonrise-small-image:hover {
-  opacity: 0.6; 
-}
-
 .moonrise-small-image {
   width: 40vw;
   grid-row: 1 / 2;
   grid-column: 2 / 3; 
 }
 
-#budapest-hexcodes, #moonrise-hexcodes {
+.chevalier-small-image {
+  width: 40vw;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2; 
+}
+
+
+.budapest-small-image:hover, .moonrise-small-image:hover, .chevalier-small-image:hover {
+  opacity: 0.6; 
+}
+
+#budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes {
   margin-top: 2vh;
   margin-bottom: 2vh;
   margin-left: 10vw;
@@ -152,14 +159,46 @@ align-items: center;
   background-color: #94AEA4;
 }
 
+.chev-hex1 {
+  background-color: #C68130;
+}
+
+.chev-hex2 {
+  background-color: #E0A517;
+}
+
+.chev-hex3 {
+  background-color: #CBB22F;
+}
+
+.chev-hex4 {
+  background-color: #6C6323;
+}
+
+.chev-hex5 {
+  background-color: #B69D87;
+}
+
+.chev-hex6 {
+  background-color: #E5DFE4;
+}
+
 .fa-arrow-alt-circle-left {
   font-size: 8vw;
   color: black;
   text-decoration: none;
 }
 
-.fa-arrow-alt-circle-left:hover {
+.moonrise-arrow:hover {
   color: #94AEA4;
+}
+
+.budapest-arrow:hover {
+  color: #D8AA88
+}
+
+.chevalier-arrow:hover {
+  color: #CBB22F;
 }
 
 .citation {
