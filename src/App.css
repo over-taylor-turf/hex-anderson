@@ -38,7 +38,7 @@
   margin-left: 10vw;
 }
 
-#budapest-main-image, #moonrise-main-image, #chevalier-main-image {
+#budapest-main-image, #moonrise-main-image, #chevalier-main-image,  #darjeeling-main-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -72,12 +72,18 @@ align-items: center;
   grid-column: 1 / 2; 
 }
 
+.darjeeling-small-image {
+  width: 40vw;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3; 
+}
 
-.budapest-small-image:hover, .moonrise-small-image:hover, .chevalier-small-image:hover {
+
+.budapest-small-image:hover, .moonrise-small-image:hover, .chevalier-small-image:hover, .darjeeling-small-image:hover {
   opacity: 0.6; 
 }
 
-#budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes {
+#budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes, #darjeeling-hexcodes {
   margin-top: 2vh;
   margin-bottom: 2vh;
   margin-left: 10vw;
@@ -95,9 +101,9 @@ align-items: center;
 
 
 .hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
-  background-color: black;
-  color: white;
+  opacity: 0.85;
 }
+
 
 .hex1 p, .hex2 p, .hex3 p, .hex4 p, .hex5 p, .hex6 p {
   color: white;
@@ -135,28 +141,31 @@ align-items: center;
   background-color: #D8AA88;
 }
 
+
+/* MOONRISE COLORS */
+
 .moon-hex1 {
-  background-color: #AA4808;
+  background-color: #195B4E;
 }
 
 .moon-hex2 {
-  background-color: #F69B3F;
+  background-color: #617337;
 }
 
 .moon-hex3 {
-  background-color: #F2E3A3;
+  background-color: #B1A16A;
 }
 
 .moon-hex4 {
-  background-color: #E6D494;
+  background-color: #E1D06E;
 }
 
 .moon-hex5 {
-  background-color: #AEBDAA;
+  background-color: #C99A6B;
 }
 
 .moon-hex6 {
-  background-color: #94AEA4;
+  background-color: #B27B7F;
 }
 
 .chev-hex1 {
@@ -183,6 +192,32 @@ align-items: center;
   background-color: #E5DFE4;
 }
 
+/* DARJEELING LIMITED COLORS */
+
+.dar-hex1 {
+  background-color: #0D6CE8;
+}
+
+.dar-hex2 {
+  background-color: #8ACAF0;
+}
+
+.dar-hex3 {
+  background-color: #ABBBC7;
+}
+
+.dar-hex4 {
+  background-color: #687075;
+}
+
+.dar-hex5 {
+  background-color: #3B5657;
+}
+
+.dar-hex6 {
+  background-color: #B45E3B;
+}
+
 .fa-arrow-alt-circle-left {
   font-size: 8vw;
   color: black;
@@ -190,7 +225,7 @@ align-items: center;
 }
 
 .moonrise-arrow:hover {
-  color: #94AEA4;
+  color: #617337;
 }
 
 .budapest-arrow:hover {
@@ -199,6 +234,10 @@ align-items: center;
 
 .chevalier-arrow:hover {
   color: #CBB22F;
+}
+
+.darjeeling-arrow:hover {
+  color: #0D6CE8;
 }
 
 .citation {

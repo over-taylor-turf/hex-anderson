@@ -6,6 +6,7 @@ import Home from './Home';
 import Budapest from './Budapest';
 import Moonrise from './Moonrise';
 import Chevalier from './Chevalier';
+import Darjeeling from './Darjeeling';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path='/moonrise' exact component={Moonrise} />
 
           <Route path='/chevalier' exact component={Chevalier} />
+
+          <Route path='/darjeeling' exact component={Darjeeling} />
 
           <Redirect to='/' />
           

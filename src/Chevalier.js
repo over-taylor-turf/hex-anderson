@@ -25,7 +25,7 @@ function Chevalier() {
 
         <div className='citation'>
           <h3>Hotel Chevalier</h3>
-          <h4>Wes Anderson, 2014</h4>
+          <h4>Wes Anderson, 2007</h4>
           <h6>American Empirical Pictures</h6>
         </div>
       </>
