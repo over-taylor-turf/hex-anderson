@@ -55,25 +55,25 @@ align-items: center;
 }
 
 .budapest-small-image {
-  width: 40vw;
+  width: 35vw;
   grid-row: 1 / 2;
   grid-column: 1 / 2; 
 }
 
 .moonrise-small-image {
-  width: 40vw;
+  width: 36vw;
   grid-row: 1 / 2;
   grid-column: 2 / 3; 
 }
 
 .chevalier-small-image {
-  width: 40vw;
+  width: 35vw;
   grid-row: 2 / 3;
   grid-column: 1 / 2; 
 }
 
 .darjeeling-small-image {
-  width: 40vw;
+  width: 36vw;
   grid-row: 2 / 3;
   grid-column: 2 / 3; 
 }
