@@ -26,17 +26,38 @@
   font-size: 10.5vw;
   margin-top: 15px;
   margin-left: 10vw;
+  color: black;
+}
+
+#title-colorful {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 10.5vw;
+  margin-top: 15px;
+  margin-left: 10vw;
+  color: #4E1042;
 }
 
 #hex-title {
   font-family: 'EB Garamond', serif;
   font-weight: 700;
+  color: black;
+}
+
+#hex-title-colorful {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  color: #900403;
 }
 
 .homepage {
   font-size: 3.5vw;
-  margin-left: 10vw;
+  text-align: center;
+  /* margin-left: 12vw; */
 }
+
+/* MAIN PAGE SMALL IMAGES */
 
 #budapest-main-image, #moonrise-main-image, #chevalier-main-image,  #darjeeling-main-image {
   display: block;
@@ -78,10 +99,11 @@ align-items: center;
   grid-column: 2 / 3; 
 }
 
-
 .budapest-small-image:hover, .moonrise-small-image:hover, .chevalier-small-image:hover, .darjeeling-small-image:hover {
   opacity: 0.6; 
 }
+
+/* GENERAL HEX CODE STYLING */
 
 #budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes, #darjeeling-hexcodes {
   margin-top: 2vh;
@@ -95,27 +117,28 @@ align-items: center;
 }
 
 .hex1, .hex2, .hex3, .hex4, .hex5, .hex6 {
-  height: 18vw;
+  height: 20vw;
   width: 12vw;
 }
-
 
 .hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
   opacity: 0.85;
 }
 
-
 .hex1 p, .hex2 p, .hex3 p, .hex4 p, .hex5 p, .hex6 p {
   color: white;
   text-align: center;
   font-size: 3.25vw;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 2px;
   font-weight: 400;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.25px;
 }
+
+
+/* GRAND BUDAPEST HOTEL HEX CODES */
 
 .buda-hex1 {
   background-color: #4B0100;
@@ -168,6 +191,9 @@ align-items: center;
   background-color: #B27B7F;
 }
 
+
+/* HOTEL CHEVALIER HEX CODES */
+
 .chev-hex1 {
   background-color: #C68130;
 }
@@ -191,6 +217,7 @@ align-items: center;
 .chev-hex6 {
   background-color: #E5DFE4;
 }
+
 
 /* DARJEELING LIMITED COLORS */
 
@@ -218,6 +245,9 @@ align-items: center;
   background-color: #B45E3B;
 }
 
+
+/* ARROW BUTTON */
+
 .fa-arrow-alt-circle-left {
   font-size: 8vw;
   color: black;
@@ -228,7 +258,7 @@ align-items: center;
   color: #617337;
 }
 
-.budapest-arrow:hover {
+.budapest-arrow:hover, .small-budapest-arrow:hover {
   color: #D8AA88
 }
 
@@ -240,25 +270,39 @@ align-items: center;
   color: #0D6CE8;
 }
 
+
+/* CITATION TEXT */
+
 .citation {
   margin-left: 10vw;
   margin-bottom: 3rem;
+  color: black;
 }
 
-.citation h3 {
+.citation-colorful {
+  margin-left: 10vw;
+  margin-bottom: 3rem;
+  color: #4B0100;
+}
+
+.citation h3, .citation-colorful h3 {
 font-weight: 700;
 font-size: 3.5vw;
 }
 
-.citation h4 {
+.citation h4, .citation-colorful h4 {
 font-weight: 400;
 font-size: 3.33vw;
 }
 
-.citation h6 {
+.citation h6, .citation-colorful h6 {
   font-weight: 400;
-font-size: 2.5vw;
+  font-size: 2.5vw;
 }
+
+
+
+/* FOOTER */
 
 footer {
   position: absolute;
@@ -266,18 +310,47 @@ footer {
   width: 100%;
   height: 3rem;
   text-align: center;
+  font-size: 3vw;
+  letter-spacing: 1.15px;
+  background-color: black;
+  color: white;
 }
 
 footer h5 {
+  padding-top: 0.25rem;
   font-weight: 600;
-  color: white;
-  background-color: black;
-  letter-spacing: 1.15px;
 }
 
 footer h6 {
-  color: white;
+  padding-bottom: 0.25rem;
+}
+
+.fa-arrow-alt-circle-up {
+  font-size: 6vw;
+}
+
+
+
+/* TESTING EYES */
+
+.buda-body {
+  background-color: white;
+
+}
+
+.buda-body-colorful {
+  background-color: #D8AA88;
+}
+
+.budapest-eye {
+font-size: 6vw;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.budapest-header {
   background-color: black;
-  padding-bottom: 0.5rem;
-  letter-spacing: 1.25px;
+  color: white;
+  font-size: 4vw;
 }

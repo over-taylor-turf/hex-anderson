@@ -8,7 +8,7 @@ function Home() {
 
         <h1 id="title"><span id="hex-title">&nbsp;hex</span>anderson</h1>
         
-        <h3 className='homepage'>Pleasing hex code palettes inspired by Wes Anderson films.</h3>
+        <h3 className='homepage'>Hex code palettes inspired by Wes Anderson films.</h3>
         <br/>
 
       <div id='photo-wrapper'>
@@ -20,6 +20,8 @@ function Home() {
         <Link to='/chevalier'><img className='chevalier-small-image' src='./images/HotelChevalier.jpeg' alt='Natalie Portman sits in a yellow hotel bed in a yellow hotel room with a yellow robe'/></Link>
 
         <Link to='/darjeeling'><img className='darjeeling-small-image' src='./images/DarjeelingLimited.jpeg' alt='a blue train car room with two men, one helping the other light a cigarette'/></Link>
+
+        {/* <Link to='/all'>View All</Link> */}
 
       </div>
       </>

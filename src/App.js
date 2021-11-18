@@ -3,6 +3,7 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import './App.css';
 
 import Home from './Home';
+import All from './All';
 import Budapest from './Budapest';
 import Moonrise from './Moonrise';
 import Chevalier from './Chevalier';
@@ -13,7 +14,6 @@ function App() {
   return (
     <div id='page-container'>
       <div id='content-container'>
-          {/* <h1 id="title"><span id="hex-title">hex</span>anderson</h1> */}
 
           <Switch>
 
@@ -26,6 +26,8 @@ function App() {
           <Route path='/chevalier' exact component={Chevalier} />
 
           <Route path='/darjeeling' exact component={Darjeeling} />
+
+          <Route path='/all' exact component={All} />
 
           <Redirect to='/' />
           
