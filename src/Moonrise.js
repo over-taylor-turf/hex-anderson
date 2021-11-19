@@ -29,6 +29,12 @@ function Moonrise() {
           <h4>Wes Anderson, 2012</h4>
           <h6>American Empirical Pictures</h6>
         </div>
+
+        <footer className="buda-footer">
+        <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
+        <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
+        </footer>
+        
       </>
     );
   }

@@ -24,6 +24,12 @@ function Home() {
         {/* <Link to='/all'>View All</Link> */}
 
       </div>
+
+      <footer className="buda-footer">
+      <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
+      <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
+      </footer>
+
       </>
     );
   }

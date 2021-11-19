@@ -35,10 +35,6 @@ function App() {
 
       </div>
 
-      <footer id="footer">
-        <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
-        <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
-      </footer>
     </div>
   );
 }

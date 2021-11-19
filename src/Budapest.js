@@ -4,17 +4,21 @@ import Switch from './Switch';
 
 function Budapest() {
 
-    // useState for the color scheme, default is off. 
     const [colorPalette, setColorPalette] = useState(true);
 
+
     return (
+      <>
+
       <div className={colorPalette ? "buda-body" : "buda-body-colorful"}>
 
         <Switch setColorPalette={setColorPalette} colorPalette={colorPalette}/>
+        
+        <p className={colorPalette ? 'buda-try-text' : 'buda-try-text-colorful'}>Try <span className={colorPalette ?'strong-buda-try-text' : 'strong-buda-try-text-colorful'}>The Grand Budapest Hotel</span> palette.</p>
 
         <h1 id={colorPalette ? "title" : "title-colorful"}><Link to='/'><i class="fas fa-arrow-alt-circle-left budapest-arrow"></i></Link><span id={colorPalette ? "hex-title" : "hex-title-colorful"}>&nbsp;hex</span>anderson</h1>
 
-        <img id='budapest-main-image' src='./images/GrandBudapestHotel1.jpeg' alt='characters from Grand Budapest Hotel in lobby together'/>
+        <img className={colorPalette ? "buda-border" : "buda-border-colorful"} id='budapest-main-image' src='./images/GrandBudapestHotel1.jpeg' alt='characters from Grand Budapest Hotel in lobby together'/>
 
         <ul id="budapest-hexcodes">
 
@@ -35,6 +39,14 @@ function Budapest() {
           <h6>American Empirical Pictures</h6>
         </div>
       </div>
+
+      <footer className={colorPalette ? "buda-footer" : "buda-footer-colorful"}>
+      <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
+      <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
+      </footer>
+
+      </>
+
     );
   }
   
