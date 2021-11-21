@@ -1,3 +1,5 @@
+/* Style Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,25 +21,7 @@
   padding-bottom: 2.5rem
 }
 
-#title {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  text-align: left;
-  font-size: 10.5vw;
-  margin-top: 15px;
-  margin-left: 10vw;
-  color: black;
-}
-
-#title-colorful {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  text-align: left;
-  font-size: 10.5vw;
-  margin-top: 15px;
-  margin-left: 10vw;
-  color: #4E1042;
-}
+/* Main HexAnderson Title Styles */
 
 #hex-title {
   font-family: 'EB Garamond', serif;
@@ -45,11 +29,62 @@
   color: black;
 }
 
-#hex-title-colorful {
+#title {
   font-family: 'EB Garamond', serif;
-  font-weight: 700;
+  font-weight: 400;
+  text-align: left;
+  font-size: 10.5vw;
+  margin-top: 15px;
+  margin-left: 6vw;
+  color: black;
+}
+
+/* Rainbow Effect on HexAnderson Title */
+
+#hex-title .h-letter:hover {
+  color: #0D6CE8;
+}
+
+#hex-title .e-letter:hover {
+  color: #8ACAF0;
+}
+
+#hex-title .x-letter:hover {
+  color: #687075;
+}
+
+.a-letter:hover {
+  color: #617337;
+}
+
+.n-letter:hover {
+  color: #195B4E;
+}
+
+.d-letter:hover {
+  color: #CBB22F;
+}
+
+.e2-letter:hover {
+  color: #E0A517;
+}
+
+.r-letter:hover {
+  color: #C68130;
+}
+
+.s-letter:hover {
   color: #900403;
 }
+
+.o-letter:hover {
+  color: #4B0100;
+}
+
+.n2-letter:hover {
+  color: #4E1042;
+}
+
 
 .homepage {
   font-size: 3.5vw;
@@ -103,6 +138,7 @@ align-items: center;
   opacity: 0.6; 
 }
 
+
 /* GENERAL HEX CODE STYLING */
 
 #budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes, #darjeeling-hexcodes {
@@ -135,33 +171,6 @@ align-items: center;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   letter-spacing: 1.25px;
-}
-
-
-/* GRAND BUDAPEST HOTEL HEX CODES */
-
-.buda-hex1 {
-  background-color: #4B0100;
-}
-
-.buda-hex2 {
-  background-color: #900403;
-}
-
-.buda-hex3 {
-  background-color: #4E1042;
-}
-
-.buda-hex4 {
-  background-color: #806150;
-}
-
-.buda-hex5 {
-  background-color: #C76B4F;
-}
-
-.buda-hex6 {
-  background-color: #D8AA88;
 }
 
 
@@ -258,10 +267,6 @@ align-items: center;
   color: #617337;
 }
 
-.budapest-arrow:hover, .small-budapest-arrow:hover {
-  color: #D8AA88
-}
-
 .chevalier-arrow:hover {
   color: #CBB22F;
 }
@@ -269,37 +274,6 @@ align-items: center;
 .darjeeling-arrow:hover {
   color: #0D6CE8;
 }
-
-
-/* CITATION TEXT */
-
-.citation {
-  margin-left: 10vw;
-  margin-bottom: 3rem;
-  color: black;
-}
-
-.citation-colorful {
-  margin-left: 10vw;
-  margin-bottom: 3rem;
-  color: #4B0100;
-}
-
-.citation h3, .citation-colorful h3 {
-font-weight: 700;
-font-size: 3.5vw;
-}
-
-.citation h4, .citation-colorful h4 {
-font-weight: 400;
-font-size: 3.33vw;
-}
-
-.citation h6, .citation-colorful h6 {
-  font-weight: 400;
-  font-size: 2.5vw;
-}
-
 
 .fa-arrow-alt-circle-up {
   font-size: 6vw;
@@ -309,17 +283,108 @@ font-size: 3.33vw;
 
 /*  T H E  G R A N D  B U D A P E S T  H O T E L  */
 
+/* Arrow Button */
+
+.budapest-arrow {
+  color: black;
+}
+    .budapest-arrow:hover {
+      color: #D8AA88;
+    }
+
+.budapest-arrow-alt:hover {
+  color: #C76B4F;
+}
+
+    .budapest-arrow-alt {
+      color: #900403;
+    }
+
+/* Hex Codes */
+
+.buda-hex1 {
+  background-color: #4B0100;
+}
+
+.buda-hex2 {
+  background-color: #900403;
+}
+
+.buda-hex3 {
+  background-color: #4E1042;
+}
+
+.buda-hex4 {
+  background-color: #806150;
+}
+
+.buda-hex5 {
+  background-color: #C76B4F;
+}
+
+.buda-hex6 {
+  background-color: #D8AA88;
+}
+
+    .buda-hex1-alt, .buda-hex3-alt, .buda-hex5-alt {
+      background-color: #4E1042;
+    }
+
+    .buda-hex2-alt, .buda-hex4-alt, .buda-hex6-alt {
+      background-color: #4B0100;
+  
+  }
+
+    .buda-hex1-alt p, .buda-hex2-alt p, .buda-hex3-alt p, .buda-hex4-alt p, .buda-hex5-alt p, .buda-hex6-alt p {
+      color: #D8AA88;
+    }
+
+
+/* Title */
+
+#buda-hex-title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  color: black;
+}
+
+#buda-title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 10.5vw;
+  margin-top: 15px;
+  margin-left: 6vw;
+  color: black;
+}
+
+
+      #buda-title-colorful {
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        text-align: left;
+        font-size: 10.5vw;
+        margin-top: 15px;
+        margin-left: 10vw;
+        color: #900403; 
+      }
+
+      #buda-hex-title-colorful {
+        font-family: 'EB Garamond', serif;
+        font-weight: 700;
+        color: #4E1042;
+      }
 
 
 /* Background Color */ 
 
-    .buda-body {
-      background-color: white;
-    }
+.buda-body {
+  background-color: white;
+}
 
-    .buda-body-colorful {
-      background-color: #D8AA88;
-    }
+      .buda-body-colorful {
+        background-color: #D8AA88;
+      }
 
 
 /* Text: "Try ____ palette." */ 
@@ -332,9 +397,9 @@ font-size: 3.33vw;
   color: black; 
 }
 
-      .buda-try-text {
-        color: black; 
-      }
+.buda-try-text {
+  color: black; 
+}
 
       .buda-try-text-colorful {
         color: #900403; 
@@ -348,9 +413,9 @@ font-size: 3.33vw;
   font-weight: 600;
 }
 
-      .strong-buda-try-text {
-        color: black;
-      }
+.strong-buda-try-text {
+  color: black;
+}
 
       .strong-buda-try-text-colorful {
         color: #C76B4F;
@@ -359,9 +424,9 @@ font-size: 3.33vw;
 
 /* Border on picture. */ 
 
-    .buda-border {
-      border: none; 
-    }
+.buda-border {
+  border: none; 
+}
 
     .buda-border-colorful {
       border: 4px solid #4E1042; 
@@ -382,6 +447,37 @@ font-size: 3.33vw;
   }
 
 
+
+/* Citation */
+
+.citation {
+  margin-left: 10vw;
+  padding-bottom: 3rem;
+  color: black;
+}
+
+    .citation-colorful {
+      margin-left: 10vw;
+      padding-bottom: 3rem;
+      color: #900403;
+    }
+
+    .citation h3, .citation-colorful h3 {
+    font-weight: 700;
+    font-size: 3.5vw;
+    }
+
+    .citation h4, .citation-colorful h4 {
+    font-weight: 400;
+    font-size: 3.33vw;
+    }
+
+    .citation h6, .citation-colorful h6 {
+      font-weight: 400;
+      font-size: 2.5vw;
+    }
+
+
  /* Footer */
 
 .buda-footer, .buda-footer-colorful {
@@ -394,10 +490,10 @@ font-size: 3.33vw;
   letter-spacing: 1.15px;
 }
 
-    .buda-footer {
-      background-color: black;
-      color: white;
-    }
+.buda-footer {
+  background-color: black;
+  color: white;
+}
 
     .buda-footer-colorful {
       background-color: #4B0100;

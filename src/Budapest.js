@@ -16,18 +16,18 @@ function Budapest() {
         
         <p className={colorPalette ? 'buda-try-text' : 'buda-try-text-colorful'}>Try <span className={colorPalette ?'strong-buda-try-text' : 'strong-buda-try-text-colorful'}>The Grand Budapest Hotel</span> palette.</p>
 
-        <h1 id={colorPalette ? "title" : "title-colorful"}><Link to='/'><i class="fas fa-arrow-alt-circle-left budapest-arrow"></i></Link><span id={colorPalette ? "hex-title" : "hex-title-colorful"}>&nbsp;hex</span>anderson</h1>
+        <h1 id={colorPalette ? "buda-title" : "buda-title-colorful"}><Link to='/'><i className={colorPalette ? "fas fa-arrow-alt-circle-left budapest-arrow" : "fas fa-arrow-alt-circle-left budapest-arrow-alt"}></i></Link><span id={colorPalette ? "buda-hex-title" : "buda-hex-title-colorful"}>&nbsp;hex</span>anderson</h1>
 
         <img className={colorPalette ? "buda-border" : "buda-border-colorful"} id='budapest-main-image' src='./images/GrandBudapestHotel1.jpeg' alt='characters from Grand Budapest Hotel in lobby together'/>
 
         <ul id="budapest-hexcodes">
 
-            <div className="buda-hex1 hex1"><p>#4B0100</p></div>
-            <div className="buda-hex2 hex2"><p>#900403</p></div>
-            <div className="buda-hex3 hex3"><p>#4E1042</p></div>
-            <div className="buda-hex4 hex4"><p>#806150</p></div>
-            <div className="buda-hex5 hex5"><p>#C76B4F</p></div>
-            <div className="buda-hex6 hex6"><p>#D8AA88</p></div>
+            <div className={colorPalette ? "buda-hex1 hex1" : "buda-hex1-alt hex1"}><p>#4B0100</p></div>
+            <div className={colorPalette ? "buda-hex2 hex2" : "buda-hex2-alt hex2"}><p>#900403</p></div>
+            <div className={colorPalette ? "buda-hex3 hex3" : "buda-hex3-alt hex3"}><p>#4E1042</p></div>
+            <div className={colorPalette ? "buda-hex4 hex4" : "buda-hex4-alt hex4"}><p>#806150</p></div>
+            <div className={colorPalette ? "buda-hex5 hex5" : "buda-hex5-alt hex5"}><p>#C76B4F</p></div>
+            <div className={colorPalette ? "buda-hex6 hex6" : "buda-hex6-alt hex6"}><p>#D8AA88</p></div>
 
         </ul>
 

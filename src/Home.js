@@ -6,7 +6,21 @@ function Home() {
     return (
       <>
 
-        <h1 id="title"><span id="hex-title">&nbsp;hex</span>anderson</h1>
+        <h1 id="title">
+          <span id="hex-title">
+            <span id="hex-title" className="h-letter">h</span>
+            <span id="hex-title" className="e-letter">e</span>
+            <span id="hex-title" className="x-letter">x</span>
+          </span>
+          <span className="a-letter">a</span>
+          <span className="n-letter">n</span>
+          <span className="d-letter">d</span>
+          <span className="e2-letter">e</span>
+          <span className="r-letter">r</span>
+          <span className="s-letter">s</span>
+          <span className="a-letter">o</span>
+          <span className="n2-letter">n</span>
+        </h1>
         
         <h3 className='homepage'>Hex code palettes inspired by Wes Anderson films.</h3>
         <br/>
