@@ -23,13 +23,15 @@ function All() {
 
                 </ul>
 
-                <div className='citation'>
+                <div className='buda-citation'>
                 <h3>The Grand Budapest Hotel</h3>
                 <h4>Wes Anderson, 2014</h4>
                 <h6>American Empirical Pictures</h6>
                 </div>
 
         </div>
+
+        <hr className="horizontal-line"/>
 
                 <div className='all-view2'>
 
@@ -46,13 +48,15 @@ function All() {
 
                 </ul>
 
-                <div className='citation'>
+                <div className='moon-citation'>
                 <h3>Moonrise Kingdom</h3>
                 <h4>Wes Anderson, 2012</h4>
                 <h6>American Empirical Pictures</h6>
                 </div>
 
         </div>
+
+        <hr className="horizontal-line"/>
 
         <div className='all-view3'>
 
@@ -69,13 +73,15 @@ function All() {
 
                 </ul>
 
-                <div className='citation'>
+                <div className='chev-citation'>
                 <h3>Hotel Chevalier</h3>
                 <h4>Wes Anderson, 2007</h4>
                 <h6>American Empirical Pictures</h6>
                 </div>
 
         </div>
+
+        <hr className="horizontal-line"/>
 
         <div className='all-view4'>
                     
@@ -92,7 +98,7 @@ function All() {
 
                 </ul>
 
-                <div className='citation'>
+                <div className='dar-citation'>
                 <h3>The Darjeeling Limited</h3>
                 <h4>Wes Anderson, 2007</h4>
                 <h6>American Empirical Pictures</h6>

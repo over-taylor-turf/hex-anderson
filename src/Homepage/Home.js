@@ -35,9 +35,9 @@ function Home() {
 
         <Link to='/darjeeling'><img className='darjeeling-small-image' src='./images/DarjeelingLimited.jpeg' alt='a blue train car room with two men, one helping the other light a cigarette'/></Link>
 
-        {/* <Link to='/all'>View All</Link> */}
-
       </div>
+
+      <div className="view-all"><Link to='/all' style={{ textDecoration: 'none' }}><p><i class="fas fa-palette"></i>&nbsp;View All</p></Link></div>
 
       <footer className="buda-footer">
       <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>

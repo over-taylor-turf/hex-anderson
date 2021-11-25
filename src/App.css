@@ -204,3 +204,29 @@ align-items: center;
     color: black;
     font-size: 4vw;
   }
+
+  .horizontal-line {
+      clear: both;
+      display: block;
+      width: 75%;               
+      background-color: black;
+      height: 2.5px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      margin-top: 10px;
+    }
+
+.view-all p {
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  color: black;
+  text-align: right;
+  margin-right: 6vw;
+  margin-top: 8vw;
+  font-size: 4vw;
+}
+
+.view-all p:hover {
+  color: #0D6CE8;
+}
