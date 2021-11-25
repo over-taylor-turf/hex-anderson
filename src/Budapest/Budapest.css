@@ -1,95 +1,23 @@
-/* Style Reset */
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    font-family: 'EB Garamond', serif;
-    font-weight: 400;
-  }
-  
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-container {
-    padding-bottom: 2.5rem
-  }
-
-  
-  /* GENERAL HEX CODE STYLING */
-  
-  #budapest-hexcodes, #moonrise-hexcodes, #chevalier-hexcodes, #darjeeling-hexcodes {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 2px;
-  }
-  
-  .hex1, .hex2, .hex3, .hex4, .hex5, .hex6 {
-    height: 20vw;
-    width: 12vw;
-  }
-  
-  .hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
-    opacity: 0.85;
-  }
-  
-  .hex1 p, .hex2 p, .hex3 p, .hex4 p, .hex5 p, .hex6 p {
-    color: white;
-    text-align: center;
-    font-size: 3.25vw;
-    padding-top: 5px;
-    padding-left: 2px;
-    font-weight: 400;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    letter-spacing: 1.25px;
-  }
-  
-  
-  
-  /* ARROW BUTTON */
-  
-  .fa-arrow-alt-circle-left {
-    font-size: 8vw;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .fa-arrow-alt-circle-up {
-    font-size: 6vw;
-  }
-  
-  
-
-  /*  T H E  G R A N D  B U D A P E S T  H O T E L  */
+/*  T H E  G R A N D  B U D A P E S T  H O T E L  */
   
   /* Arrow Button */
   
   .budapest-arrow {
     color: black;
   }
+
+  .budapest-arrow-alt {
+    color: #900403;
+  }
+  
       .budapest-arrow:hover {
         color: #D8AA88;
       }
-  
-  .budapest-arrow-alt:hover {
-    color: #C76B4F;
-  }
-  
-      .budapest-arrow-alt {
-        color: #900403;
+      
+      .budapest-arrow-alt:hover {
+        color: #C76B4F;
       }
+
   
   /* Hex Codes */
   
@@ -170,10 +98,14 @@
   
   .buda-body {
     background-color: white;
+    height: 100vh;
+    width: 100vw;
   }
   
         .buda-body-colorful {
           background-color: #D8AA88;
+          height: 100vh;
+          width: 100vw;
         }
   
   
@@ -215,52 +147,39 @@
   /* Border on picture. */ 
   
   .buda-border {
-    border: none; 
+    border: none;
   }
   
       .buda-border-colorful {
         border: 4px solid #4E1042; 
       }
-  
-  
-  /* Currently unable to change */
-  
-  /* Eye Button! */ 
-  
-    .budapest-eye {
-      font-size: 6vw;
-      margin-left: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  
-  
+
   
   /* Citation */
   
-  .citation {
+  .buda-citation {
     margin-left: 10vw;
     padding-bottom: 3rem;
     color: black;
   }
   
-      .citation-colorful {
+      .buda-citation-colorful {
         margin-left: 10vw;
         padding-bottom: 3rem;
         color: #900403;
       }
   
-      .citation h3, .citation-colorful h3 {
+      .buda-citation h3, .buda-citation-colorful h3 {
       font-weight: 700;
       font-size: 3.5vw;
       }
   
-      .citation h4, .citation-colorful h4 {
+      .buda-citation h4, .buda-citation-colorful h4 {
       font-weight: 400;
       font-size: 3.33vw;
       }
   
-      .citation h6, .citation-colorful h6 {
+      .buda-citation h6, .buda-citation-colorful h6 {
         font-weight: 400;
         font-size: 2.5vw;
       }
@@ -296,12 +215,4 @@
       .buda-footer h6, .buda-footer-colorful h6 {
         padding-bottom: 0.25rem;
       } 
-  
-  
-  /* Header Text */ 
-  
-    .budapest-header {
-      color: black;
-      font-size: 4vw;
-    }
   

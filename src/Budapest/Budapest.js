@@ -10,7 +10,6 @@ function Budapest() {
 
     return (
       <>
-
       <div className={colorPalette ? "buda-body" : "buda-body-colorful"}>
 
         <Switch setColorPalette={setColorPalette} colorPalette={colorPalette}/>
@@ -34,19 +33,19 @@ function Budapest() {
 
         <br/>
 
-        <div className={colorPalette ? "citation" : "citation-colorful"}>
+        <div className={colorPalette ? "buda-citation" : "buda-citation-colorful"}>
           <h3>The Grand Budapest Hotel</h3>
           <h4>Wes Anderson, 2014</h4>
           <h6>American Empirical Pictures</h6>
         </div>
-      </div>
+        </div>
 
       <footer className={colorPalette ? "buda-footer" : "buda-footer-colorful"}>
       <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
       <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
       </footer>
 
-      </>
+    </>
 
     );
   }

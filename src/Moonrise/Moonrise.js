@@ -34,7 +34,7 @@ function Moonrise() {
 
         <br/>
 
-        <div className='citation'>
+        <div className={colorPalette ? "moon-citation" : "moon-citation-colorful"}>
           <h3>Moonrise Kingdom</h3>
           <h4>Wes Anderson, 2012</h4>
           <h6>American Empirical Pictures</h6>

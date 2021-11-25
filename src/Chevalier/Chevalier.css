@@ -1,0 +1,245 @@
+
+  /*    H O T E L  C H E V A L I E R    */
+
+    /* Background Color */ 
+  
+    .chev-body {
+      background-color: white;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+          .chev-body-colorful {
+            background-color: #6C6323;
+            width: 100vw;
+            height: 100vh;
+          }
+    
+  
+  /* Text: "Try ____ palette." */ 
+  
+  .chev-try-text, .chev-try-text-colorful {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 4vw;
+    color: black; 
+  }
+  
+  .chev-try-text {
+    color: black; 
+  }
+  
+        .chev-try-text-colorful {
+          color: #C68130; 
+        }
+  
+  
+  /* Text: "___ Hotel Chevalier ___ " */ 
+  
+  .strong-chev-try-text, .strong-chev-try-text-colorful {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+  
+  .strong-chev-try-text {
+    color: black;
+  }
+  
+        .strong-chev-try-text-colorful {
+          color: #E0A517;
+        }
+
+
+  /* Title */
+  
+  #chev-hex-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: black;
+  }
+  
+  #chev-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 10.5vw;
+    margin-top: 15px;
+    margin-left: 6vw;
+    color: black;
+  }
+  
+        #chev-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 400;
+          text-align: left;
+          font-size: 10.5vw;
+          margin-top: 15px;
+          margin-left: 10vw;
+          color: #C68130; 
+        }
+  
+        #chev-hex-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 700;
+          color: #E0A517;
+        }
+
+  
+  /* Arrow Button */
+  
+  .chev-arrow {
+    color: black;
+  }
+
+      .chev-arrow:hover {
+        color: #CBB22F;
+      }
+  
+  .chev-arrow-alt:hover {
+    color: #B69D87;
+  }
+  
+      .chev-arrow-alt {
+        color: #C68130;
+      }
+
+
+/* Border on picture. */ 
+  
+  .chev-border {
+    border: none; 
+  }
+  
+      .chev-border-colorful {
+        border: 4px solid #CBB22F; 
+      }
+
+
+
+
+/* HOTEL CHEVALIER HEX CODES */
+
+.chev-hex1 {
+    background-color: #C68130;
+  }
+  
+  .chev-hex2 {
+    background-color: #E0A517;
+  }
+  
+  .chev-hex3 {
+    background-color: #CBB22F;
+  }
+  
+  .chev-hex4 {
+    background-color: #6C6323;
+  }
+  
+  .chev-hex5 {
+    background-color: #B69D87;
+  }
+  
+  .chev-hex6 {
+    background-color: #E5DFE4;
+  }
+
+      .chev-hex1-alt, .chev-hex3-alt, .chev-hex5-alt {
+        background-color: #E0A517;
+      }
+
+      .chev-hex2-alt, .chev-hex4-alt, .chev-hex6-alt {
+        background-color: #B69D87;
+    }
+
+      .chev-hex1-alt p, .chev-hex2-alt p, .chev-hex3-alt p, .chev-hex4-alt p, .chev-hex5-alt p, .chev-hex6-alt p {
+        color: #E5DFE4;
+      }
+
+.chev-horizontal-line {
+  clear: both;
+  display: block;
+  width: 75%;               
+  background-color: black;
+  height: 2.5px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+      .chev-alt-horizontal-line {
+        clear: both;
+        display: block;
+        width: 75%;               
+        background-color: #CBB22F;
+        height: 2.5px;
+        margin: auto;
+        margin-bottom: 10px;
+      }
+
+  /* Citation */
+  
+  .chev-citation {
+    margin-left: 10vw;
+    padding-bottom: 3rem;
+    color: black;
+  }
+  
+      .chev-citation-colorful {
+        margin-left: 10vw;
+        padding-bottom: 3rem;
+        color: #E0A517;
+      }
+  
+      .chev-citation h3, .chev-citation-colorful h3 {
+      font-weight: 700;
+      font-size: 3.5vw;
+      }
+  
+      .chev-citation h4, .chev-citation-colorful h4 {
+      font-weight: 400;
+      font-size: 3.33vw;
+      }
+  
+      .chev-citation h6, .chev-citation-colorful h6 {
+        font-weight: 400;
+        font-size: 2.5vw;
+      }
+
+      .chev-citation-colorful h4, .chev-citation-colorful h6 {
+        color: #CBB22F;
+      }
+
+      .chev-citation h4, .chev-citation h6 {
+        color: black;
+      }
+
+         /* Footer */
+  
+  .chev-footer, .chev-footer-colorful {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    font-size: 3vw;
+    letter-spacing: 1.15px;
+  }
+  
+  .chev-footer {
+    background-color: black;
+    color: white;
+  }
+  
+      .chev-footer-colorful {
+        background-color: #C68130;
+        color: #E5DFE4;
+      }
+  
+      .chev-footer h5, .chev-footer-colorful h5 {
+        padding-top: 0.25rem;
+        font-weight: 600;
+      }
+  
+      .chev-footer h6, .chev-footer-colorful h6 {
+        padding-bottom: 0.25rem;
+      } 

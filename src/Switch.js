@@ -7,9 +7,9 @@ function Switch(props) {
 return (
     <>
 
-    <p className='budapest-header'>
+    <p className='main-header'>
         <span>
-            <i className='fas fa-eye budapest-eye' onClick={() => props.setColorPalette(!props.colorPalette)}>
+            <i className='fas fa-eye eye' onClick={() => props.setColorPalette(!props.colorPalette)}>
                 </i>&nbsp;
         </span></p>
 
