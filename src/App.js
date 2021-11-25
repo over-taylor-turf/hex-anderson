@@ -2,12 +2,12 @@ import React from 'react';
 import { Route, Redirect, Switch } from "react-router-dom";
 import './App.css';
 
-import Home from './Home';
+import Home from './Homepage/Home';
 import All from './All';
-import Budapest from './Budapest';
-import Moonrise from './Moonrise';
-import Chevalier from './Chevalier';
-import Darjeeling from './Darjeeling';
+import Budapest from './Budapest/Budapest';
+import Moonrise from './Moonrise/Moonrise';
+import Chevalier from './Chevalier/Chevalier';
+import Darjeeling from './Darjeeling/Darjeeling';
 
 
 function App() {

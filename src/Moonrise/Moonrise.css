@@ -1,0 +1,306 @@
+/* Style Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+  }
+  
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-container {
+    padding-bottom: 2.5rem
+  }
+
+  
+  /* GENERAL HEX CODE STYLING */
+  
+ #moonrise-hexcodes {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2px;
+  }
+  
+  .hex1, .hex2, .hex3, .hex4, .hex5, .hex6 {
+    height: 20vw;
+    width: 12vw;
+  }
+  
+  .hex1:hover, .hex2:hover, .hex3:hover, .hex4:hover, .hex5:hover, .hex6:hover {
+    opacity: 0.85;
+  }
+  
+  .hex1 p, .hex2 p, .hex3 p, .hex4 p, .hex5 p, .hex6 p {
+    color: white;
+    text-align: center;
+    font-size: 3.25vw;
+    padding-top: 5px;
+    padding-left: 2px;
+    font-weight: 400;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 1.25px;
+  }
+  
+  
+  
+  /* ARROW BUTTON */
+  
+  .fa-arrow-alt-circle-left {
+    font-size: 8vw;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .fa-arrow-alt-circle-up {
+    font-size: 6vw;
+  }
+  
+  
+
+  /*    M O O N R I S E  K I N G D O M    */
+  
+  /* Arrow Button */
+  
+  .moon-arrow {
+    color: black;
+  }
+      .moon-arrow:hover {
+        color: #D8AA88;
+      }
+  
+  .moon-arrow-alt:hover {
+    color: #C76B4F;
+  }
+  
+      .moon-arrow-alt {
+        color: #B1A16A;
+      }
+  
+/* MOONRISE COLORS */
+
+.moon-hex1 {
+    background-color: #195B4E;
+  }
+  
+  .moon-hex2 {
+    background-color: #617337;
+  }
+  
+  .moon-hex3 {
+    background-color: #B1A16A;
+  }
+  
+  .moon-hex4 {
+    background-color: #E1D06E;
+  }
+  
+  .moon-hex5 {
+    background-color: #C99A6B;
+  }
+  
+  .moon-hex6 {
+    background-color: #B27B7F;
+  }
+  
+      .moon-hex1-alt, .moon-hex3-alt, .moon-hex5-alt {
+        background-color: #B27B7F;
+      }
+  
+      .moon-hex2-alt, .moon-hex4-alt, .moon-hex6-alt {
+        background-color: #C99A6B;
+    }
+  
+      .moon-hex1-alt p, .moon-hex2-alt p, .moon-hex3-alt p, .moon-hex4-alt p, .moon-hex5-alt p, .moon-hex6-alt p {
+        color: #195B4E;
+      }
+  
+  
+  /* Title */
+  
+  #moon-hex-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: black;
+  }
+  
+  #moon-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 10.5vw;
+    margin-top: 15px;
+    margin-left: 6vw;
+    color: black;
+  }
+  
+        #moon-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 400;
+          text-align: left;
+          font-size: 10.5vw;
+          margin-top: 15px;
+          margin-left: 10vw;
+          color: #B1A16A; 
+        }
+  
+        #moon-hex-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 700;
+          color: #E1D06E;
+        }
+  
+  
+  /* Background Color */ 
+  
+  .moon-body {
+    background-color: white;
+  }
+  
+        .moon-body-colorful {
+          background-color: #195B4E;
+        }
+  
+  
+  /* Text: "Try ____ palette." */ 
+  
+  .moon-try-text, .moon-try-text-colorful {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 4vw;
+    color: black; 
+  }
+  
+  .moon-try-text {
+    color: black; 
+  }
+  
+        .moon-try-text-colorful {
+          color: #B1A16A; 
+        }
+  
+  
+  /* Text: "___ The Grand Budapest Hotel ___ " */ 
+  
+  .strong-moon-try-text, .strong-moon-try-text-colorful {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+  
+  .strong-moon-try-text {
+    color: black;
+  }
+  
+        .strong-moon-try-text-colorful {
+          color: #E1D06E;
+        }
+  
+  
+  /* Border on picture. */ 
+  
+  .moon-border {
+    border: none; 
+  }
+  
+      .moon-border-colorful {
+        border: 4px solid #B27B7F; 
+      }
+  
+  
+  /* Currently unable to change */
+  
+  /* Eye Button! */ 
+  
+    .budapest-eye {
+      font-size: 6vw;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
+  
+  /* Citation */
+  
+  .citation {
+    margin-left: 10vw;
+    padding-bottom: 3rem;
+    color: black;
+  }
+  
+      .citation-colorful {
+        margin-left: 10vw;
+        padding-bottom: 3rem;
+        color: #900403;
+      }
+  
+      .citation h3, .citation-colorful h3 {
+      font-weight: 700;
+      font-size: 3.5vw;
+      }
+  
+      .citation h4, .citation-colorful h4 {
+      font-weight: 400;
+      font-size: 3.33vw;
+      }
+  
+      .citation h6, .citation-colorful h6 {
+        font-weight: 400;
+        font-size: 2.5vw;
+      }
+  
+  
+   /* Footer */
+  
+  .moon-footer, .moon-footer-colorful {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    font-size: 3vw;
+    letter-spacing: 1.15px;
+  }
+  
+  .moon-footer {
+    background-color: black;
+    color: white;
+  }
+  
+      .moon-footer-colorful {
+        background-color: #B27B7F;
+        color: #E1D06E;
+      }
+  
+      .buda-footer h5, .buda-footer-colorful h5 {
+        padding-top: 0.25rem;
+        font-weight: 600;
+      }
+  
+      .buda-footer h6, .buda-footer-colorful h6 {
+        padding-bottom: 0.25rem;
+      } 
+  
+  
+  /* Header Text */ 
+  
+    .budapest-header {
+      color: black;
+      font-size: 4vw;
+    }
+  
