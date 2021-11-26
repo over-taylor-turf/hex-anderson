@@ -32,7 +32,7 @@ function Moonrise() {
 
         </ul>
 
-        <br/>
+        <hr className={colorPalette ? "moon-horizontal-line" : "moon-alt-horizontal-line"}/>
 
         <div className={colorPalette ? "moon-citation" : "moon-citation-colorful"}>
           <h3>Moonrise Kingdom</h3>

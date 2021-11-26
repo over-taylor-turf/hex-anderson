@@ -215,4 +215,24 @@
       .buda-footer h6, .buda-footer-colorful h6 {
         padding-bottom: 0.25rem;
       } 
-  
+
+
+.buda-horizontal-line {
+  clear: both;
+  display: block;
+  width: 75%;               
+  background-color: black;
+  height: 2.5px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+      .buda-alt-horizontal-line {
+        clear: both;
+        display: block;
+        width: 75%;               
+        background-color: #C76B4F;
+        height: 2.5px;
+        margin: auto;
+        margin-bottom: 10px;
+      }

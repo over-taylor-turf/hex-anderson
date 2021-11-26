@@ -31,7 +31,7 @@ function Budapest() {
 
         </ul>
 
-        <br/>
+        <hr className={colorPalette ? "buda-horizontal-line" : "buda-alt-horizontal-line"}/>
 
         <div className={colorPalette ? "buda-citation" : "buda-citation-colorful"}>
           <h3>The Grand Budapest Hotel</h3>

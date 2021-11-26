@@ -223,4 +223,22 @@
         padding-bottom: 0.25rem;
       } 
   
-  
+.moon-horizontal-line {
+  clear: both;
+  display: block;
+  width: 75%;               
+  background-color: black;
+  height: 2.5px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+      .moon-alt-horizontal-line {
+        clear: both;
+        display: block;
+        width: 75%;               
+        background-color: #C99A6B;
+        height: 2.5px;
+        margin: auto;
+        margin-bottom: 10px;
+      }
