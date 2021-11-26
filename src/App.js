@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from './Homepage/Home';
 import All from './All';
+import Taylor from './Taylor';
 import Budapest from './Budapest/Budapest';
 import Moonrise from './Moonrise/Moonrise';
 import Chevalier from './Chevalier/Chevalier';
@@ -28,6 +29,8 @@ function App() {
           <Route path='/darjeeling' exact component={Darjeeling} />
 
           <Route path='/all' exact component={All} />
+
+          <Route path='/taylor' exact component={Taylor} />
 
           <Redirect to='/' />
           

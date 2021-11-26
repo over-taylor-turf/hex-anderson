@@ -38,8 +38,9 @@ function Home() {
       </div>
 
       <div className="view-all"><Link to='/all' style={{ textDecoration: 'none' }}><p><i class="fas fa-palette"></i>&nbsp;View All</p></Link></div>
+      <div className="meet-taylor"><Link to='/taylor' style={{ textDecoration: 'none' }}><p><i class="fas fa-code"></i>&nbsp;Meet Taylor</p></Link></div>
 
-      <footer className="buda-footer">
+      <footer className="footer">
       <h5>Designed & Coded with &#9829; by Taylor Overturf</h5>
       <h6>Seattle, Washington&nbsp; | &nbsp;November, 2021</h6>
       </footer>

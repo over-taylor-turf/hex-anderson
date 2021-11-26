@@ -111,24 +111,28 @@ align-items: center;
 
 .budapest-small-image {
   width: 35vw;
+  max-width: 400px;
   grid-row: 1 / 2;
   grid-column: 1 / 2; 
 }
 
 .moonrise-small-image {
   width: 36vw;
+  max-width: 400px;
   grid-row: 1 / 2;
   grid-column: 2 / 3; 
 }
 
 .chevalier-small-image {
   width: 35vw;
+  max-width: 400px;
   grid-row: 2 / 3;
   grid-column: 1 / 2; 
 }
 
 .darjeeling-small-image {
   width: 36vw;
+  max-width: 400px;
   grid-row: 2 / 3;
   grid-column: 2 / 3; 
 }
@@ -185,6 +189,16 @@ align-items: center;
     font-size: 6vw;
   }
 
+  .taylor-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .taylor-arrow:hover {
+    color: #E0A517;
+  }
+
   
 /* Currently unable to change on specific pages. */
 
@@ -219,10 +233,10 @@ align-items: center;
 
 .view-all p {
   font-family: 'EB Garamond', serif;
-  font-weight: 600;
+  font-weight: 500;
   color: black;
   text-align: right;
-  margin-right: 6vw;
+  margin-right: 12vw;
   margin-top: 8vw;
   font-size: 4vw;
 }
@@ -230,3 +244,90 @@ align-items: center;
 .view-all p:hover {
   color: #0D6CE8;
 }
+
+
+.meet-taylor p {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  color: black;
+  text-align: right;
+  margin-right: 6vw;
+  margin-top: 2vw;
+  font-size: 4vw;
+}
+
+.meet-taylor p:hover {
+  color: #E0A517;
+}
+
+#taylor-headshot {
+  width: 30vw;
+  max-width: 300px;
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+
+}
+
+.intro-text {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 7vw;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.bio-text {
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 3.5vw;
+  text-align: left;
+  margin: auto;
+  width: 70vw;
+  margin-top: 10px;
+}
+
+.linkedin {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.linkedin:hover {
+  color: #E0A517;
+}
+
+   /* Footer */
+  
+   .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    font-size: 3vw;
+    letter-spacing: 1.15px;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .footer h5 {
+    padding-top: 0.25rem;
+    font-weight: 600;
+  }
+  
+  .footer h6 {
+    padding-bottom: 0.25rem;
+  } 
+
+  .heart {
+    color: #E0A517;
+  }
