@@ -1,3 +1,123 @@
+
+  /*    H O T E L  C H E V A L I E R    */
+
+    /* Background Color */ 
+  
+    .dar-body {
+      background-color: white;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+          .dar-body-colorful {
+            background-color: #8ACAF0;
+            width: 100vw;
+            height: 100vh;
+          }
+    
+  
+  /* Text: "Try ____ palette." */ 
+  
+  .dar-try-text, .dar-try-text-colorful {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 4vw;
+    color: black; 
+  }
+  
+  .dar-try-text {
+    color: black; 
+  }
+  
+        .dar-try-text-colorful {
+          color: #3B5657; 
+        }
+
+
+  
+  /* Text: "___ The Darjeeling Limited ___ " */ 
+  
+  .strong-dar-try-text, .strong-dar-try-text-colorful {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+  
+  .strong-dar-try-text {
+    color: black;
+  }
+  
+        .strong-dar-try-text-colorful {
+          color: #0D6CE8;
+        }
+
+
+  /* Title */
+  
+  #dar-hex-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: black;
+  }
+  
+  #dar-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 10.5vw;
+    margin-top: 15px;
+    margin-left: 6vw;
+    color: black;
+  }
+  
+        #dar-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 400;
+          text-align: left;
+          font-size: 10.5vw;
+          margin-top: 15px;
+          margin-left: 10vw;
+          color: #0D6CE8; 
+        }
+  
+        #dar-hex-title-colorful {
+          font-family: 'EB Garamond', serif;
+          font-weight: 700;
+          color: #3B5657;
+        }
+
+
+  
+  /* Arrow Button */
+  
+  .dar-arrow {
+    color: black;
+  }
+
+      .dar-arrow:hover {
+        color: #0D6CE8;
+      }
+  
+  .dar-arrow-alt:hover {
+    color: #B45E3B;
+  }
+  
+      .dar-arrow-alt {
+        color: #0D6CE8;
+      }
+
+
+/* Border on picture. */ 
+  
+.dar-border {
+  border: none; 
+}
+
+    .dar-border-colorful {
+      border: 4px solid #B45E3B; 
+    }
+
+
 /* DARJEELING LIMITED COLORS */
 
 .dar-hex1 {
@@ -24,6 +144,107 @@
     background-color: #B45E3B;
   }
 
-  .darjeeling-arrow:hover {
-    color: #0D6CE8;
+        .dar-hex1-alt, .dar-hex3-alt, .dar-hex5-alt {
+          background-color: #ABBBC7;
+        }
+
+        .dar-hex2-alt, .dar-hex4-alt, .dar-hex6-alt {
+          background-color: #3B5657;
+        }
+
+        .dar-hex2-alt p, .dar-hex4-alt p, .dar-hex6-alt p {
+          color: #ABBBC7;
+        }
+
+        .dar-hex3-alt p, .dar-hex5-alt p, .dar-hex1-alt p {
+          color: #3B5657;
+        }
+
+  .dar-horizontal-line {
+    clear: both;
+    display: block;
+    width: 75%;               
+    background-color: black;
+    height: 2.5px;
+    margin: auto;
+    margin-bottom: 10px;
   }
+  
+        .dar-alt-horizontal-line {
+          clear: both;
+          display: block;
+          width: 75%;               
+          background-color: #B45E3B;
+          height: 2.5px;
+          margin: auto;
+          margin-bottom: 10px;
+        }
+
+  /* Citation */
+  
+  .dar-citation {
+    margin-left: 10vw;
+    padding-bottom: 3rem;
+    color: black;
+  }
+  
+      .dar-citation-colorful {
+        margin-left: 10vw;
+        padding-bottom: 3rem;
+        color: #0D6CE8;
+      }
+  
+      .dar-citation h3, .dar-citation-colorful h3 {
+      font-weight: 700;
+      font-size: 3.5vw;
+      }
+  
+      .dar-citation h4, .dar-citation-colorful h4 {
+      font-weight: 400;
+      font-size: 3.33vw;
+      }
+  
+      .dar-citation h6, .dar-citation-colorful h6 {
+        font-weight: 400;
+        font-size: 2.5vw;
+      }
+
+      .dar-citation-colorful h4, .dar-citation-colorful h6 {
+        color: #3B5657;
+      }
+
+      .dar-citation h4, .dar-citation h6 {
+        color: black;
+      }
+
+
+         /* Footer */
+  
+         .dar-footer, .dar-footer-colorful {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 3rem;
+          text-align: center;
+          font-size: 3vw;
+          letter-spacing: 1.15px;
+        }
+        
+        .dar-footer {
+          background-color: black;
+          color: white;
+        }
+        
+            .dar-footer-colorful {
+              background-color: #0D6CE8;
+              color: #ABBBC7;
+            }
+        
+            .dar-footer h5, .dar-footer-colorful h5 {
+              padding-top: 0.25rem;
+              font-weight: 600;
+            }
+        
+            .dar-footer h6, .dar-footer-colorful h6 {
+              padding-bottom: 0.25rem;
+            } 
